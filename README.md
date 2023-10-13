@@ -2,62 +2,77 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+<h1>osTicket - Post Installation Setup (Part 2)</h1>
+<p>After installation, let's make sure it is configured properly to manage roles, departments, teams, tickets, agents, users, SLAs (Service Level Agreements), and help topics. Let's get started with easy-to-follow steps.</p>
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Azure (Virtual Machines: Windows 10 recommend for this guide)
+- MacBook Air
+- RD Client
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10 Pro
 
-<h2>List of Prerequisites</h2>
+-----
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+<h2>1) Configure Roles</h2>
 
-<h2>Installation Steps</h2>
+- Go to the Admin Panel.
+  
+- Navigate to Agents and select Roles.
 
-<p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Create a "Supreme Admin" role.
 
-<p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h2>2) Configure Departments</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- In the Admin Panel, go to Agents and click on Departments.
+  
+- Set up a "System Administrators" department.
+  
+<h2>3) Configure Teams</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Still in the Admin Panel, find Agents and choose Teams.
+
+- Create teams named "Level I Support" and "Level II Support."
+
+<h2>4) Allow Anyone to Create Tickets</h2>
+
+- In the Admin Panel, access Settings and select User Settings.
+
+- Enable "Registration Required" to ensure users must register and log in to create tickets.
+
+<h2>5) Configure Agents (Workers)</h2>
+
+- Within the Admin Panel, under Agents, click on "Add New."
+
+- Add agents like "Jane" and "John."
+
+<h2>6) Configure Users (Customers)</h2>
+
+- Visit the Agent Panel and go to Users, then click "Add New."
+
+- Add users such as "Karen" and "Ken."
+
+<h2>7) Configure SLA (Service Level Agreements)</h2>
+
+- From the Admin Panel, head to Manage and select SLA.
+
+- Set up SLAs like "Sev-A" (1 hour, 24/7), "Sev-B" (4 hours, 24/7), and "Sev-C" (8 hours, business hours).
+
+<h2>8) Configure Help Topics</h2>
+
+- Lastly, go to the Admin Panel, then Manage, and choose Help Topics.
+
+- Create topics such as "Business Critical Outage," "Personal Computer Issues," "Equipment Request," and "Password Reset."
+
+-----
+
+<h1>Conclusion</h1>
+By following these straightforward steps, you've successfully configured your portfolio to manage roles, departments, teams, tickets, agents, users, SLAs, and help topics. Your setup is now ready to serve your needs effectively.
+
+-----
+
+# [Next: osTicket - Ticket Lifecycle: Intake Through Resolution (Part 3)](https://github.com/anumkhanit/ticket-lifecycle)
